@@ -14,7 +14,6 @@
   max-width: 1344px;
   padding: 0 15px;
   margin: 0 auto;
-  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -74,7 +73,7 @@ body {
 
 .banner {
   background: url(../img/bannerbg.png) no-repeat bottom center/cover;
-  height: 800;
+  height: 800px;
   position: relative;
 }
 
@@ -114,3 +113,93 @@ body {
   box-shadow: 0px 59px 30px -40px #0085ff1a;
   border: 1px solid #eaeaea;
 }
+
+
+.course{
+  padding: 120px 0 50px;
+
+}
+
+.course__wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.course__block{
+  min-width: 642px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+}
+
+.course__block-title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #626262;
+}
+
+.course__block-cards{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.course__block-item{
+  min-width: 306px;
+  display: flex;
+  align-items: center;
+  gap: 72px;
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0px 30px 30px  #0085FF1A;
+  padding: 15px;
+  position: relative;
+
+}
+
+.course__block-item-one{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.course__block-item-one-txt{
+  font-size: 20px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.course__block-item-prise{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.course__block-item-prise span{
+  font-weight: 400;
+}
+
+.course__block-item::after{
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background: #626262;
+  left: 110px;
+  top: 32px;
+}
+.course__block-item::before{
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background: #626262;
+  left: 110px;
+  bottom: 32px;
+}
+
